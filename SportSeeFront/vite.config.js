@@ -10,9 +10,6 @@ export default defineConfig({
       usePolling: true,
       interval: 100,
     },
-    proxy: {
-      '/user': process.env.VITE_API_BASE_URL,
-    },
   },
   css: {
     postcss: {
